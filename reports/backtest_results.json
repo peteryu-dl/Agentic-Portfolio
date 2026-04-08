@@ -1,0 +1,40 @@
+{
+  "monthly_returns": [
+    {
+      "date": "2025-03-27",
+      "portfolio_return": 0.0,
+      "benchmark_return": 0.0,
+      "cumulative_return": 0.0,
+      "nav": 1.0,
+      "max_drawdown": 0.0
+    },
+    {
+      "date": "2026-03-27",
+      "portfolio_return": 0.01559798341624543,
+      "benchmark_return": 0.0,
+      "cumulative_return": 0.015597983416245409,
+      "nav": 1.0155979834162454,
+      "max_drawdown": 0.0
+    },
+    {
+      "date": "2026-03-28",
+      "portfolio_return": 0.017834241800068092,
+      "benchmark_return": 0.0,
+      "cumulative_return": 0.03371040342415221,
+      "nav": 1.0337104034241522,
+      "max_drawdown": 0.0
+    }
+  ],
+  "metrics": {
+    "total_return": 0.03371040342415221,
+    "annualized_return": 0.14181448571245836,
+    "annualized_volatility": 0.033655849975776295,
+    "sharpe_ratio": 3.3222897592227363,
+    "max_drawdown": 0.0,
+    "max_drawdown_period": "2025-03-27",
+    "win_rate": 0.6666666666666666,
+    "profit_factor": Infinity,
+    "num_months": 3
+  },
+  "generated_at": "2026-03-28T12:49:31.297869"
+}
