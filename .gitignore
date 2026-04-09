@@ -1,7 +1,43 @@
 
+# Environment & sensitive files
+.env
+.secrets
+*.local
 
+# IDE & editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Claude & cache
 .claude
+.cache
 
+# Git
+.git
 
-
+# Virtual environment
 .venv
+
+# Temporary files
+*.tmp
+*.log
+
+# User requested ignores
+data/
+portfolios/
+reports/
+PROJECT_INTRO.md
+uv.lock

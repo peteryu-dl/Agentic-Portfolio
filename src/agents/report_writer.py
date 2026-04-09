@@ -61,7 +61,7 @@ except ImportError:
 # -------------------- 配置区 --------------------
 # API 配置
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-OPENAI_MODEL_NAME = os.getenv("OPENAI_MODEL_NAME")
+OPENAI_MODEL_NAME = os.getenv("OPENAI_MODEL_NAME") or os.getenv("LLM_ESAY_TASK") or "qwen-plus-latest"
 OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL")
 
 # 报告配置
